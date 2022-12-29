@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  app:
+    image: "aca062/lps:${VERSION}"
+    ports:
+      - "80:5000"
+    depends_on:
+      - db
+  db:
+    image: aca062/lps:bd
+    ports:
+      - "32000:3306"
+    environment:
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+      MYSQL_DATABASE: lps_trabajo
+      MYSQL_ROOT_PASSWORD: root
