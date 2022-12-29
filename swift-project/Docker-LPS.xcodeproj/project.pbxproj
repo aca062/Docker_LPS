@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293A04552949DCD500ECBFBD /* Docker_LPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A04542949DCD500ECBFBD /* Docker_LPSApp.swift */; };
+		293A04592949DCD600ECBFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293A04582949DCD600ECBFBD /* Assets.xcassets */; };
+		293A045C2949DCD600ECBFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293A045B2949DCD600ECBFBD /* Preview Assets.xcassets */; };
+		293A04662949DCD600ECBFBD /* Docker_LPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A04652949DCD600ECBFBD /* Docker_LPSTests.swift */; };
+		293A04702949DCD600ECBFBD /* Docker_LPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A046F2949DCD600ECBFBD /* Docker_LPSUITests.swift */; };
+		293A04722949DCD600ECBFBD /* Docker_LPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A04712949DCD600ECBFBD /* Docker_LPSUITestsLaunchTests.swift */; };
+		293A047F2949DD2900ECBFBD /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A047E2949DD2900ECBFBD /* Notas.swift */; };
+		293A0483294A021800ECBFBD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0482294A021800ECBFBD /* Login.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293A04622949DCD600ECBFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293A04492949DCD500ECBFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293A04502949DCD500ECBFBD;
+			remoteInfo = "Docker-LPS";
+		};
+		293A046C2949DCD600ECBFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293A04492949DCD500ECBFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293A04502949DCD500ECBFBD;
+			remoteInfo = "Docker-LPS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293A04512949DCD500ECBFBD /* Docker-LPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Docker-LPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293A04542949DCD500ECBFBD /* Docker_LPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docker_LPSApp.swift; sourceTree = "<group>"; };
+		293A04582949DCD600ECBFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293A045B2949DCD600ECBFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		293A04612949DCD600ECBFBD /* Docker-LPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Docker-LPSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293A04652949DCD600ECBFBD /* Docker_LPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docker_LPSTests.swift; sourceTree = "<group>"; };
+		293A046B2949DCD600ECBFBD /* Docker-LPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Docker-LPSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293A046F2949DCD600ECBFBD /* Docker_LPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docker_LPSUITests.swift; sourceTree = "<group>"; };
+		293A04712949DCD600ECBFBD /* Docker_LPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docker_LPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		293A047E2949DD2900ECBFBD /* Notas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notas.swift; sourceTree = "<group>"; };
+		293A0482294A021800ECBFBD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293A044E2949DCD500ECBFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A045E2949DCD600ECBFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A04682949DCD600ECBFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293A04482949DCD500ECBFBD = {
+			isa = PBXGroup;
+			children = (
+				293A04532949DCD500ECBFBD /* Docker-LPS */,
+				293A04642949DCD600ECBFBD /* Docker-LPSTests */,
+				293A046E2949DCD600ECBFBD /* Docker-LPSUITests */,
+				293A04522949DCD500ECBFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293A04522949DCD500ECBFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293A04512949DCD500ECBFBD /* Docker-LPS.app */,
+				293A04612949DCD600ECBFBD /* Docker-LPSTests.xctest */,
+				293A046B2949DCD600ECBFBD /* Docker-LPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293A04532949DCD500ECBFBD /* Docker-LPS */ = {
+			isa = PBXGroup;
+			children = (
+				293A04542949DCD500ECBFBD /* Docker_LPSApp.swift */,
+				293A0482294A021800ECBFBD /* Login.swift */,
+				293A047E2949DD2900ECBFBD /* Notas.swift */,
+				293A04582949DCD600ECBFBD /* Assets.xcassets */,
+				293A045A2949DCD600ECBFBD /* Preview Content */,
+			);
+			path = "Docker-LPS";
+			sourceTree = "<group>";
+		};
+		293A045A2949DCD600ECBFBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				293A045B2949DCD600ECBFBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		293A04642949DCD600ECBFBD /* Docker-LPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				293A04652949DCD600ECBFBD /* Docker_LPSTests.swift */,
+			);
+			path = "Docker-LPSTests";
+			sourceTree = "<group>";
+		};
+		293A046E2949DCD600ECBFBD /* Docker-LPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293A046F2949DCD600ECBFBD /* Docker_LPSUITests.swift */,
+				293A04712949DCD600ECBFBD /* Docker_LPSUITestsLaunchTests.swift */,
+			);
+			path = "Docker-LPSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293A04502949DCD500ECBFBD /* Docker-LPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293A04752949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPS" */;
+			buildPhases = (
+				293A044D2949DCD500ECBFBD /* Sources */,
+				293A044E2949DCD500ECBFBD /* Frameworks */,
+				293A044F2949DCD500ECBFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Docker-LPS";
+			productName = "Docker-LPS";
+			productReference = 293A04512949DCD500ECBFBD /* Docker-LPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293A04602949DCD600ECBFBD /* Docker-LPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293A04782949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPSTests" */;
+			buildPhases = (
+				293A045D2949DCD600ECBFBD /* Sources */,
+				293A045E2949DCD600ECBFBD /* Frameworks */,
+				293A045F2949DCD600ECBFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293A04632949DCD600ECBFBD /* PBXTargetDependency */,
+			);
+			name = "Docker-LPSTests";
+			productName = "Docker-LPSTests";
+			productReference = 293A04612949DCD600ECBFBD /* Docker-LPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293A046A2949DCD600ECBFBD /* Docker-LPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293A047B2949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPSUITests" */;
+			buildPhases = (
+				293A04672949DCD600ECBFBD /* Sources */,
+				293A04682949DCD600ECBFBD /* Frameworks */,
+				293A04692949DCD600ECBFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293A046D2949DCD600ECBFBD /* PBXTargetDependency */,
+			);
+			name = "Docker-LPSUITests";
+			productName = "Docker-LPSUITests";
+			productReference = 293A046B2949DCD600ECBFBD /* Docker-LPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293A04492949DCD500ECBFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					293A04502949DCD500ECBFBD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					293A04602949DCD600ECBFBD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 293A04502949DCD500ECBFBD;
+					};
+					293A046A2949DCD600ECBFBD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 293A04502949DCD500ECBFBD;
+					};
+				};
+			};
+			buildConfigurationList = 293A044C2949DCD500ECBFBD /* Build configuration list for PBXProject "Docker-LPS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293A04482949DCD500ECBFBD;
+			productRefGroup = 293A04522949DCD500ECBFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293A04502949DCD500ECBFBD /* Docker-LPS */,
+				293A04602949DCD600ECBFBD /* Docker-LPSTests */,
+				293A046A2949DCD600ECBFBD /* Docker-LPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293A044F2949DCD500ECBFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293A045C2949DCD600ECBFBD /* Preview Assets.xcassets in Resources */,
+				293A04592949DCD600ECBFBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A045F2949DCD600ECBFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A04692949DCD600ECBFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293A044D2949DCD500ECBFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293A047F2949DD2900ECBFBD /* Notas.swift in Sources */,
+				293A04552949DCD500ECBFBD /* Docker_LPSApp.swift in Sources */,
+				293A0483294A021800ECBFBD /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A045D2949DCD600ECBFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293A04662949DCD600ECBFBD /* Docker_LPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293A04672949DCD600ECBFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293A04722949DCD600ECBFBD /* Docker_LPSUITestsLaunchTests.swift in Sources */,
+				293A04702949DCD600ECBFBD /* Docker_LPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293A04632949DCD600ECBFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293A04502949DCD500ECBFBD /* Docker-LPS */;
+			targetProxy = 293A04622949DCD600ECBFBD /* PBXContainerItemProxy */;
+		};
+		293A046D2949DCD600ECBFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293A04502949DCD500ECBFBD /* Docker-LPS */;
+			targetProxy = 293A046C2949DCD600ECBFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		293A04732949DCD600ECBFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293A04742949DCD600ECBFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293A04762949DCD600ECBFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Docker-LPS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293A04772949DCD600ECBFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Docker-LPS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293A04792949DCD600ECBFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docker-LPS.app/Docker-LPS";
+			};
+			name = Debug;
+		};
+		293A047A2949DCD600ECBFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docker-LPS.app/Docker-LPS";
+			};
+			name = Release;
+		};
+		293A047C2949DCD600ECBFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Docker-LPS";
+			};
+			name = Debug;
+		};
+		293A047D2949DCD600ECBFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UAL.Docker-LPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Docker-LPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293A044C2949DCD500ECBFBD /* Build configuration list for PBXProject "Docker-LPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293A04732949DCD600ECBFBD /* Debug */,
+				293A04742949DCD600ECBFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293A04752949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293A04762949DCD600ECBFBD /* Debug */,
+				293A04772949DCD600ECBFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293A04782949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293A04792949DCD600ECBFBD /* Debug */,
+				293A047A2949DCD600ECBFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293A047B2949DCD600ECBFBD /* Build configuration list for PBXNativeTarget "Docker-LPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293A047C2949DCD600ECBFBD /* Debug */,
+				293A047D2949DCD600ECBFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293A04492949DCD500ECBFBD /* Project object */;
+}
